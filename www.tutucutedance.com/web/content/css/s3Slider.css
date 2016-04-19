@@ -1,0 +1,89 @@
+#s3slider { 
+   width: 1150px; /* important to be same as image width */ 
+   height: 408px; /* important to be same as image height */
+   overflow:hidden;/* important */
+   border: 0px #666 solid;   
+}
+#s3sliderContent {
+	width: 1150px; /* important to be same as image width or wider */
+	padding: 0;
+	height: 408px;
+	padding:0;
+	margin:0;
+}
+.s3sliderImage {
+   float: left; /* important */
+   position: relative; /* important */
+   display: none; /* important */
+}
+.s3sliderImage span {
+   visibility:hidden;
+   position: absolute; /* important */
+   left: 0;
+   font: 10px/15px Arial, Helvetica, sans-serif;
+   padding: 10px 13px;
+   width: 0px;
+   height:0px;
+   background-color: #000;
+   filter: alpha(opacity=70); /* here you can set the opacity of box with text */
+   -moz-opacity: 0.7; /* here you can set the opacity of box with text */
+   -khtml-opacity: 0.7; /* here you can set the opacity of box with text */
+   opacity: 0.7; /* here you can set the opacity of box with text */
+   color: #fff;
+   display: none; /* important */
+   bottom: 0px;
+   left:0;
+   /*
+       if you put
+       top: 0; -> the box with text will be shown at the top of the image 
+       if you put
+       bottom: 0; -> the box with text will be shown at the bottom of the image
+   */
+}
+
+/*Start Carrier logos*/
+#s3Carrier { 
+   width: 205px; /* important to be same as image width */ 
+   height: 120px; /* important to be same as image height */
+   position: relative; /* important */
+   background-color:#CCC;
+   overflow:hidden;/* important */
+}
+#s3CarrierContent {
+	width: 200px; /* important to be same as image width or wider */
+	position: absolute; /* important */
+	top: 0; /* important */
+	margin-left: -50px; /* important */
+	height: 120px;
+	left: 52px;
+	z-index:0;
+}
+.s3CarrierImage {
+   float: left; /* important */
+   position: relative; /* important */
+   display: none; /* important */
+}
+.s3CarrierImage span {
+	visibility:hidden;
+   position: absolute; /* important */
+   left: 0;
+   font: 10px/15px Arial, Helvetica, sans-serif;
+   padding: 10px 13px;
+   width: 0px;
+   height:0px;
+   background-color: #000;
+   filter: alpha(opacity=70); /* here you can set the opacity of box with text */
+   -moz-opacity: 0.7; /* here you can set the opacity of box with text */
+   -khtml-opacity: 0.7; /* here you can set the opacity of box with text */
+   opacity: 0.7; /* here you can set the opacity of box with text */
+   color: #fff;
+   display: none; /* important */
+   bottom: 0px;
+   left:0;
+   /*
+       if you put
+       top: 0; -> the box with text will be shown at the top of the image 
+       if you put
+       bottom: 0; -> the box with text will be shown at the bottom of the image
+   */
+}
